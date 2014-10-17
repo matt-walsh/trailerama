@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment3_Trailerama</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="DEFAULT_TRAILER">GENERIC MOVIE TITLE</string>
+    <string name="DEFAULT_DESCRIPTION">GENERIC DESCRIPTION</string>
+    <string name="DEFAULT_IMAGE_DESC">TRAILER THUMBNAIL</string>
+    <string name="DEFAULT_URL">HTTP://www.invisible.com</string>
+    <string name="INVISIBLE">0</string>
+    <string name="title_activity_trailer">TrailerActivity</string>
+    
+    
+
+</resources>

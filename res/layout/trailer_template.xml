@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+        <ImageView
+            android:id="@+id/trailer_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/DEFAULT_IMAGE_DESC"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/trailer_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/DEFAULT_TRAILER"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/trailer_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DEFAULT_DESCRIPTION"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RatingBar
+                android:id="@+id/trailer_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/trailer_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="@string/INVISIBLE"
+                android:text="@string/DEFAULT_URL" />
+
+        </LinearLayout>
+ 
+</TableRow>
+</TableLayout>
